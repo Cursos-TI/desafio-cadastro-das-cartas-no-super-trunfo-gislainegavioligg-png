@@ -16,7 +16,7 @@ int main() {
     float pib , pib2;
     int numero_pontos_turisticos , numero_pontos_turisticos2;
 
-    printf("Carta 1\n");
+    printf("Desafio Super Trunfo Carta 1\n");
 
     printf("Digite a letra do Estado: ");
     scanf(" %c" , &estado);
@@ -36,7 +36,7 @@ int main() {
     printf("Digite o PIB: ");
     scanf("%f" , &pib);
 
-    printf("Digite o número de Pontos Turísticos: " , "\n");
+    printf("Digite o número de Pontos Turísticos: ");
     scanf("%d" , &numero_pontos_turisticos);
 
     printf("Carta 1\n");
@@ -56,7 +56,7 @@ int main() {
     printf("Número de Pontos Turísticos:%d\n" , numero_pontos_turisticos);
 
 
-    printf("Carta 2\n");
+    printf("Desafio Super Trunfo Carta 2\n");
 
     printf("Digite a letra do Estado: ");
     scanf(" %c" , &estado2);
@@ -76,7 +76,7 @@ int main() {
     printf("Digite o PIB: ");
     scanf("%f" , &pib2);
 
-    printf("Digite o número de Pontos Turísticos: " , "\n");
+    printf("Digite o número de Pontos Turísticos: ");
     scanf("%d" , &numero_pontos_turisticos2);
 
     printf("Carta 2\n");
