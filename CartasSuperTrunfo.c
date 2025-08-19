@@ -14,7 +14,9 @@ int main() {
     float densidadepopulacional , densidadepopulacional2;
     float pibpercapita , pibpercapita2;
 
-    printf("Desafio Super Trunfo Carta 1\n");     //Apenas um título para o código
+    printf("Desafio Super Trunfo: Carta 1\n");     //Apenas um título para o código
+
+    printf("\n");           //Pular uma linha
 
     printf("Digite a letra do Estado: ");        //Imprimir na tela a mensagem 
     scanf(" %c" , &estado);                     //Leitura da informação digitada pelo usuário
@@ -41,7 +43,7 @@ int main() {
 
     pibpercapita = pib / populacao;                 //cálculo usando o operador divisão para obter o resultado do valor do Pib per capita da cidade.
 
-    printf("Carta 1\n");                            //Título Carta 1                     
+    printf("\nCarta 1\n");                            //Título Carta 1                     
 
     printf("Estado:%c\n" , estado);
     
@@ -61,8 +63,11 @@ int main() {
 
     printf("O PIB per capita é: %f mil reais\n" , pibpercapita);
 
+    printf("\n");
 
-    printf("Desafio Super Trunfo Carta 2\n");
+    printf("Desafio Super Trunfo: Carta 2\n");
+
+    printf("\n");
 
     printf("Digite a letra do Estado: ");
     scanf(" %c" , &estado2);
@@ -89,7 +94,7 @@ int main() {
 
     pibpercapita2 = pib2 / populacao2;
 
-    printf("Carta 2\n");
+    printf("\nCarta 2\n");
 
     printf("Estado:%c\n" , estado2);
     
@@ -108,6 +113,8 @@ int main() {
     printf ("A densidade populacional é: %.2f hab/km²\n" , densidadepopulacional2);
 
     printf("O PIB per capita é: %f mil reais\n" , pibpercapita2);
+
+    printf("\n");
 
 
 
