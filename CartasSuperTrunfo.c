@@ -135,7 +135,7 @@ int main() {
     resultadoB = area>area2;
     resultadoC = pib>pib2;
     resultadoD = numero_pontos_turisticos>numero_pontos_turisticos2;
-    resultadoE = densidadepopulacional<densidadepopulacional2;
+    resultadoE = densidadepopinversa<densidadepopinversa2;
     resultadoF = pibpercapita>pibpercapita2;
     resultadoG = superpoder>superpoder2;
 
