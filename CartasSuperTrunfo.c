@@ -139,6 +139,17 @@ int main() {
     resultadoF = pibpercapita>pibpercapita2;
     resultadoG = superpoder>superpoder2;
 
+    printf("\n");
+
+    printf("População:  %d\n", resultadoA);
+    printf("Área:  %d\n", resultadoB);
+    printf("PIB:  %d\n", resultadoC);
+    printf("Número de Pontos Turísticos:  %d\n", resultadoD);
+    printf("Densidade Populacional:  %d\n", resultadoE);
+    printf("PIB per capita:  %d\n", resultadoF);
+    printf("Super Poder:  %d\n", resultadoG);
+
+    printf("\n");
 
 
 
